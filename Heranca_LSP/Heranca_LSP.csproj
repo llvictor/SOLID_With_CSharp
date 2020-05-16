@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E062DDD-828A-406C-854C-855A6A30DCE0}</ProjectGuid>
+    <ProjectGuid>{C41EB5CF-16EA-4F36-AF1F-76564B9EA448}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Solid_CSharp</RootNamespace>
-    <AssemblyName>Solid_CSharp</AssemblyName>
+    <RootNamespace>Heranca_LSP</RootNamespace>
+    <AssemblyName>Heranca_LSP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ContaComum.cs" />
+    <Compile Include="ContaEstudante.cs" />
+    <Compile Include="ManipuladorDeSaldo.cs" />
+    <Compile Include="ProcessadorDeInvestimentos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
